@@ -1,0 +1,24 @@
+body {
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  padding-top: 7rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+  font-family: 'Kreon', serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 2.5rem 0;
+}
+h2 {
+  margin: 0 0 1.5rem 0;
+}
+
+p {
+  line-height: 1.6;
+}
