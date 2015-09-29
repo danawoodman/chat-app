@@ -1,5 +1,11 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
 body {
-  color: #333;
+  color: .222;
   font-family: 'Open Sans', Helvetica, sans-serif;
   padding-top: 7rem;
 }
@@ -7,7 +13,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #000;
+  color: .222;
   font-family: 'Kreon', serif;
 }
 
@@ -22,3 +28,10 @@ h2 {
 p {
   line-height: 1.6;
 }
+
+form { background: #ccc; padding: 3px; position: fixed; bottom: 0; left: 0; width: 100%; }
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+.messages { list-style-type: none; margin: 0; padding: 0; }
+.messages li { padding: 5px 10px; }
+.messages li:nth-child(odd) { background: #eee; }
